@@ -1,0 +1,53 @@
+(Components)
+ should always start with a capital letter
+=>It will not give an error instead it 
+will not show anyhting..
+
+(Props)
+parameters to a function 
+dynamically rendering Props
+complete is a boolean value here
+{props.complete ? <></> : <input type="checkbox"/>}
+
+
+
+*Life Cycle of a Components*
+Constructed -> Mounted->Updated->UnMounted
+
+->like when we add items in cart Updated
+navigate on other screen it gets unMounted
+
+
+*HOOKS*
+
+->States don't share the memory they are
+stored in the local storage 
+
+
+const[val,setVal]=useState(0)
+
+->this means we have an array on 0 th index
+we have the value and on the 1st index'
+we have the function()
+zero means the initial value of the value
+
+useState(like storing a variable)
+->A state of a components is a variable 
+that holds some information that 
+may change over the lifetime of the components
+
+->whenever value of the  state chnages the 
+components get re ernder the *whole* components
+
+
+
+
+
+useEffect()
+in simple words this can be used
+whenever we want to perform a functionality
+during the Mount Or The UnMount 
+i.e. during the state change of an components 
+ 
+
+
